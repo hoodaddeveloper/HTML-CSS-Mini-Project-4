@@ -5,11 +5,26 @@
 }
 
 body {
-  background: rgb(107, 137, 237);
+  background: rgb(107, 137, 237) !important;
 }
 
 .container {
   width: 600px;
   height: 360px;
-  background: gray;
+  margin: 100px auto;
+  position: relative;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 0 0 40px rgb(40, 40, 40)
+}
+
+img {
+  width: 200px;
+}
+
+.kard {
+  right: 0;
+  width: 220px;
+  height: 360px;
+  background: red;
+  position: absolute;
 }
