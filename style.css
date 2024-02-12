@@ -9,21 +9,25 @@ body {
 }
 
 .container {
-  width: 600px;
   height: 360px;
   margin: 100px auto;
   position: relative;
+  width: 600px !important;
   border-radius: 10px 30px 10px 30px;
-  box-shadow: 0 0 40px rgb(40, 40, 40)
+  box-shadow: 0 0 40px rgb(40, 40, 40);
 }
 
 img {
-  width: 200px;
+  width: 100%;
 }
 
 .kard {
-  right: 0;
+  right: 30px;
   width: 220px;
+  bottom: 30px;
   height: 360px;
+  overflow: hidden;
   position: absolute;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 0 0 40px rgb(40, 40, 40);
 }
