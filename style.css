@@ -17,6 +17,14 @@ body {
   box-shadow: 0 0 40px rgb(40, 40, 40);
 }
 
+.bio {
+  left: 0;
+  width: 300px;
+  position: absolute;
+  text-align: justify;
+  padding: 20px 0 10px 30px;
+}
+
 img {
   width: 100%;
 }
